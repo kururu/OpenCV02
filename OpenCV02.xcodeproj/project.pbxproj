@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCE1F17C269C0DD1007F8D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F17B269C0DD1007F8D3C /* AppDelegate.swift */; };
+		FCE1F17E269C0DD1007F8D3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F17D269C0DD1007F8D3C /* SceneDelegate.swift */; };
+		FCE1F180269C0DD1007F8D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F17F269C0DD1007F8D3C /* ViewController.swift */; };
+		FCE1F183269C0DD1007F8D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE1F181269C0DD1007F8D3C /* Main.storyboard */; };
+		FCE1F185269C0DD2007F8D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE1F184269C0DD2007F8D3C /* Assets.xcassets */; };
+		FCE1F188269C0DD2007F8D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE1F186269C0DD2007F8D3C /* LaunchScreen.storyboard */; };
+		FCE1F193269C0DD2007F8D3C /* OpenCV02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F192269C0DD2007F8D3C /* OpenCV02Tests.swift */; };
+		FCE1F19E269C0DD2007F8D3C /* OpenCV02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F19D269C0DD2007F8D3C /* OpenCV02UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCE1F18F269C0DD2007F8D3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE1F170269C0DD1007F8D3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE1F177269C0DD1007F8D3C;
+			remoteInfo = OpenCV02;
+		};
+		FCE1F19A269C0DD2007F8D3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE1F170269C0DD1007F8D3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE1F177269C0DD1007F8D3C;
+			remoteInfo = OpenCV02;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCE1F178269C0DD1007F8D3C /* OpenCV02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE1F17B269C0DD1007F8D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCE1F17D269C0DD1007F8D3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCE1F17F269C0DD1007F8D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCE1F182269C0DD1007F8D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCE1F184269C0DD2007F8D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCE1F187269C0DD2007F8D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCE1F189269C0DD2007F8D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE1F18E269C0DD2007F8D3C /* OpenCV02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE1F192269C0DD2007F8D3C /* OpenCV02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCV02Tests.swift; sourceTree = "<group>"; };
+		FCE1F194269C0DD2007F8D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE1F199269C0DD2007F8D3C /* OpenCV02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE1F19D269C0DD2007F8D3C /* OpenCV02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCV02UITests.swift; sourceTree = "<group>"; };
+		FCE1F19F269C0DD2007F8D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCE1F175269C0DD1007F8D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1F18B269C0DD2007F8D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1F196269C0DD2007F8D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCE1F16F269C0DD1007F8D3C = {
+			isa = PBXGroup;
+			children = (
+				FCE1F17A269C0DD1007F8D3C /* OpenCV02 */,
+				FCE1F191269C0DD2007F8D3C /* OpenCV02Tests */,
+				FCE1F19C269C0DD2007F8D3C /* OpenCV02UITests */,
+				FCE1F179269C0DD1007F8D3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCE1F179269C0DD1007F8D3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1F178269C0DD1007F8D3C /* OpenCV02.app */,
+				FCE1F18E269C0DD2007F8D3C /* OpenCV02Tests.xctest */,
+				FCE1F199269C0DD2007F8D3C /* OpenCV02UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCE1F17A269C0DD1007F8D3C /* OpenCV02 */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1F17B269C0DD1007F8D3C /* AppDelegate.swift */,
+				FCE1F17D269C0DD1007F8D3C /* SceneDelegate.swift */,
+				FCE1F17F269C0DD1007F8D3C /* ViewController.swift */,
+				FCE1F181269C0DD1007F8D3C /* Main.storyboard */,
+				FCE1F184269C0DD2007F8D3C /* Assets.xcassets */,
+				FCE1F186269C0DD2007F8D3C /* LaunchScreen.storyboard */,
+				FCE1F189269C0DD2007F8D3C /* Info.plist */,
+			);
+			path = OpenCV02;
+			sourceTree = "<group>";
+		};
+		FCE1F191269C0DD2007F8D3C /* OpenCV02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1F192269C0DD2007F8D3C /* OpenCV02Tests.swift */,
+				FCE1F194269C0DD2007F8D3C /* Info.plist */,
+			);
+			path = OpenCV02Tests;
+			sourceTree = "<group>";
+		};
+		FCE1F19C269C0DD2007F8D3C /* OpenCV02UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1F19D269C0DD2007F8D3C /* OpenCV02UITests.swift */,
+				FCE1F19F269C0DD2007F8D3C /* Info.plist */,
+			);
+			path = OpenCV02UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCE1F177269C0DD1007F8D3C /* OpenCV02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE1F1A2269C0DD2007F8D3C /* Build configuration list for PBXNativeTarget "OpenCV02" */;
+			buildPhases = (
+				FCE1F174269C0DD1007F8D3C /* Sources */,
+				FCE1F175269C0DD1007F8D3C /* Frameworks */,
+				FCE1F176269C0DD1007F8D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCV02;
+			productName = OpenCV02;
+			productReference = FCE1F178269C0DD1007F8D3C /* OpenCV02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCE1F18D269C0DD2007F8D3C /* OpenCV02Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE1F1A5269C0DD2007F8D3C /* Build configuration list for PBXNativeTarget "OpenCV02Tests" */;
+			buildPhases = (
+				FCE1F18A269C0DD2007F8D3C /* Sources */,
+				FCE1F18B269C0DD2007F8D3C /* Frameworks */,
+				FCE1F18C269C0DD2007F8D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE1F190269C0DD2007F8D3C /* PBXTargetDependency */,
+			);
+			name = OpenCV02Tests;
+			productName = OpenCV02Tests;
+			productReference = FCE1F18E269C0DD2007F8D3C /* OpenCV02Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCE1F198269C0DD2007F8D3C /* OpenCV02UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE1F1A8269C0DD2007F8D3C /* Build configuration list for PBXNativeTarget "OpenCV02UITests" */;
+			buildPhases = (
+				FCE1F195269C0DD2007F8D3C /* Sources */,
+				FCE1F196269C0DD2007F8D3C /* Frameworks */,
+				FCE1F197269C0DD2007F8D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE1F19B269C0DD2007F8D3C /* PBXTargetDependency */,
+			);
+			name = OpenCV02UITests;
+			productName = OpenCV02UITests;
+			productReference = FCE1F199269C0DD2007F8D3C /* OpenCV02UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCE1F170269C0DD1007F8D3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FCE1F177269C0DD1007F8D3C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FCE1F18D269C0DD2007F8D3C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FCE1F177269C0DD1007F8D3C;
+					};
+					FCE1F198269C0DD2007F8D3C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FCE1F177269C0DD1007F8D3C;
+					};
+				};
+			};
+			buildConfigurationList = FCE1F173269C0DD1007F8D3C /* Build configuration list for PBXProject "OpenCV02" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCE1F16F269C0DD1007F8D3C;
+			productRefGroup = FCE1F179269C0DD1007F8D3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCE1F177269C0DD1007F8D3C /* OpenCV02 */,
+				FCE1F18D269C0DD2007F8D3C /* OpenCV02Tests */,
+				FCE1F198269C0DD2007F8D3C /* OpenCV02UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCE1F176269C0DD1007F8D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1F188269C0DD2007F8D3C /* LaunchScreen.storyboard in Resources */,
+				FCE1F185269C0DD2007F8D3C /* Assets.xcassets in Resources */,
+				FCE1F183269C0DD1007F8D3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1F18C269C0DD2007F8D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1F197269C0DD2007F8D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCE1F174269C0DD1007F8D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1F180269C0DD1007F8D3C /* ViewController.swift in Sources */,
+				FCE1F17C269C0DD1007F8D3C /* AppDelegate.swift in Sources */,
+				FCE1F17E269C0DD1007F8D3C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1F18A269C0DD2007F8D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1F193269C0DD2007F8D3C /* OpenCV02Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1F195269C0DD2007F8D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1F19E269C0DD2007F8D3C /* OpenCV02UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCE1F190269C0DD2007F8D3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE1F177269C0DD1007F8D3C /* OpenCV02 */;
+			targetProxy = FCE1F18F269C0DD2007F8D3C /* PBXContainerItemProxy */;
+		};
+		FCE1F19B269C0DD2007F8D3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE1F177269C0DD1007F8D3C /* OpenCV02 */;
+			targetProxy = FCE1F19A269C0DD2007F8D3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCE1F181269C0DD1007F8D3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE1F182269C0DD1007F8D3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCE1F186269C0DD2007F8D3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE1F187269C0DD2007F8D3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCE1F1A0269C0DD2007F8D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCE1F1A1269C0DD2007F8D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCE1F1A3269C0DD2007F8D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VGKM533HG;
+				INFOPLIST_FILE = OpenCV02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.OpenCV02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCE1F1A4269C0DD2007F8D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VGKM533HG;
+				INFOPLIST_FILE = OpenCV02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.OpenCV02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCE1F1A6269C0DD2007F8D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VGKM533HG;
+				INFOPLIST_FILE = OpenCV02Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.OpenCV02Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCV02.app/OpenCV02";
+			};
+			name = Debug;
+		};
+		FCE1F1A7269C0DD2007F8D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VGKM533HG;
+				INFOPLIST_FILE = OpenCV02Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.OpenCV02Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCV02.app/OpenCV02";
+			};
+			name = Release;
+		};
+		FCE1F1A9269C0DD2007F8D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VGKM533HG;
+				INFOPLIST_FILE = OpenCV02UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.OpenCV02UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenCV02;
+			};
+			name = Debug;
+		};
+		FCE1F1AA269C0DD2007F8D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VGKM533HG;
+				INFOPLIST_FILE = OpenCV02UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.OpenCV02UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenCV02;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCE1F173269C0DD1007F8D3C /* Build configuration list for PBXProject "OpenCV02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1F1A0269C0DD2007F8D3C /* Debug */,
+				FCE1F1A1269C0DD2007F8D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE1F1A2269C0DD2007F8D3C /* Build configuration list for PBXNativeTarget "OpenCV02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1F1A3269C0DD2007F8D3C /* Debug */,
+				FCE1F1A4269C0DD2007F8D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE1F1A5269C0DD2007F8D3C /* Build configuration list for PBXNativeTarget "OpenCV02Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1F1A6269C0DD2007F8D3C /* Debug */,
+				FCE1F1A7269C0DD2007F8D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE1F1A8269C0DD2007F8D3C /* Build configuration list for PBXNativeTarget "OpenCV02UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1F1A9269C0DD2007F8D3C /* Debug */,
+				FCE1F1AA269C0DD2007F8D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCE1F170269C0DD1007F8D3C /* Project object */;
+}
