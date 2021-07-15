@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1385DB269D603400AFDAE5 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385BF269D603400AFDAE5 /* GCDWebServerResponse.m */; };
+		FC1385DC269D603400AFDAE5 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385C2269D603400AFDAE5 /* GCDWebServerRequest.m */; };
+		FC1385DD269D603400AFDAE5 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385C5269D603400AFDAE5 /* GCDWebServerFunctions.m */; };
+		FC1385DE269D603400AFDAE5 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385C6269D603400AFDAE5 /* GCDWebServer.m */; };
+		FC1385DF269D603400AFDAE5 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385C7269D603400AFDAE5 /* GCDWebServerConnection.m */; };
+		FC1385E0269D603400AFDAE5 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385CC269D603400AFDAE5 /* GCDWebServerErrorResponse.m */; };
+		FC1385E1269D603400AFDAE5 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385CE269D603400AFDAE5 /* GCDWebServerFileResponse.m */; };
+		FC1385E2269D603400AFDAE5 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385CF269D603400AFDAE5 /* GCDWebServerDataResponse.m */; };
+		FC1385E3269D603400AFDAE5 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385D1269D603400AFDAE5 /* GCDWebServerStreamedResponse.m */; };
+		FC1385E4269D603400AFDAE5 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385D6269D603400AFDAE5 /* GCDWebServerURLEncodedFormRequest.m */; };
+		FC1385E5269D603400AFDAE5 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385D7269D603400AFDAE5 /* GCDWebServerMultiPartFormRequest.m */; };
+		FC1385E6269D603400AFDAE5 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385D8269D603400AFDAE5 /* GCDWebServerDataRequest.m */; };
+		FC1385E7269D603400AFDAE5 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1385D9269D603400AFDAE5 /* GCDWebServerFileRequest.m */; };
+		FC13D661269C1BE7006D4041 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13D660269C1BE7006D4041 /* opencv2.framework */; };
+		FC223C6E269D24300079FCDD /* opencv002.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC223C6D269D24300079FCDD /* opencv002.mm */; };
+		FC279FE9269FC855000BB24B /* sample01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC279FE8269FC833000BB24B /* sample01.mp4 */; };
+		FC8A7819269E5047001FAF56 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8A7818269E5047001FAF56 /* NextViewController.swift */; };
 		FCE1F17C269C0DD1007F8D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F17B269C0DD1007F8D3C /* AppDelegate.swift */; };
 		FCE1F17E269C0DD1007F8D3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F17D269C0DD1007F8D3C /* SceneDelegate.swift */; };
 		FCE1F180269C0DD1007F8D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F17F269C0DD1007F8D3C /* ViewController.swift */; };
 		FCE1F183269C0DD1007F8D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE1F181269C0DD1007F8D3C /* Main.storyboard */; };
 		FCE1F185269C0DD2007F8D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE1F184269C0DD2007F8D3C /* Assets.xcassets */; };
-		FCE1F188269C0DD2007F8D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE1F186269C0DD2007F8D3C /* LaunchScreen.storyboard */; };
 		FCE1F193269C0DD2007F8D3C /* OpenCV02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F192269C0DD2007F8D3C /* OpenCV02Tests.swift */; };
 		FCE1F19E269C0DD2007F8D3C /* OpenCV02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1F19D269C0DD2007F8D3C /* OpenCV02UITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,14 +50,59 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FCE1F1BC269C1366007F8D3C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FC1385BD269D603400AFDAE5 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		FC1385BE269D603400AFDAE5 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		FC1385BF269D603400AFDAE5 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		FC1385C0269D603400AFDAE5 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		FC1385C1269D603400AFDAE5 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		FC1385C2269D603400AFDAE5 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		FC1385C3269D603400AFDAE5 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		FC1385C4269D603400AFDAE5 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		FC1385C5269D603400AFDAE5 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		FC1385C6269D603400AFDAE5 /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		FC1385C7269D603400AFDAE5 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		FC1385C8269D603400AFDAE5 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		FC1385CA269D603400AFDAE5 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		FC1385CB269D603400AFDAE5 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		FC1385CC269D603400AFDAE5 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		FC1385CD269D603400AFDAE5 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		FC1385CE269D603400AFDAE5 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		FC1385CF269D603400AFDAE5 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		FC1385D0269D603400AFDAE5 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		FC1385D1269D603400AFDAE5 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		FC1385D3269D603400AFDAE5 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		FC1385D4269D603400AFDAE5 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		FC1385D5269D603400AFDAE5 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		FC1385D6269D603400AFDAE5 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		FC1385D7269D603400AFDAE5 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		FC1385D8269D603400AFDAE5 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		FC1385D9269D603400AFDAE5 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		FC1385DA269D603400AFDAE5 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		FC13D660269C1BE7006D4041 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../Frameworks/opencv2.framework; sourceTree = "<group>"; };
+		FC223C6C269D24300079FCDD /* opencv002.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opencv002.h; sourceTree = "<group>"; };
+		FC223C6D269D24300079FCDD /* opencv002.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = opencv002.mm; sourceTree = "<group>"; };
+		FC279FE8269FC833000BB24B /* sample01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample01.mp4; sourceTree = "<group>"; };
+		FC8A7818269E5047001FAF56 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		FCE1F178269C0DD1007F8D3C /* OpenCV02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE1F17B269C0DD1007F8D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCE1F17D269C0DD1007F8D3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FCE1F17F269C0DD1007F8D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCE1F182269C0DD1007F8D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCE1F184269C0DD2007F8D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FCE1F187269C0DD2007F8D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCE1F189269C0DD2007F8D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCE1F18E269C0DD2007F8D3C /* OpenCV02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE1F192269C0DD2007F8D3C /* OpenCV02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCV02Tests.swift; sourceTree = "<group>"; };
@@ -49,6 +110,7 @@
 		FCE1F199269C0DD2007F8D3C /* OpenCV02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE1F19D269C0DD2007F8D3C /* OpenCV02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCV02UITests.swift; sourceTree = "<group>"; };
 		FCE1F19F269C0DD2007F8D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE1F1CE269C194F007F8D3C /* OpenCV02-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCV02-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC13D661269C1BE7006D4041 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +139,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC1385BB269D603400AFDAE5 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				FC1385BC269D603400AFDAE5 /* Core */,
+				FC1385C9269D603400AFDAE5 /* Responses */,
+				FC1385D2269D603400AFDAE5 /* Requests */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		FC1385BC269D603400AFDAE5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FC1385BD269D603400AFDAE5 /* GCDWebServerFunctions.h */,
+				FC1385BE269D603400AFDAE5 /* GCDWebServerPrivate.h */,
+				FC1385BF269D603400AFDAE5 /* GCDWebServerResponse.m */,
+				FC1385C0269D603400AFDAE5 /* GCDWebServerConnection.h */,
+				FC1385C1269D603400AFDAE5 /* GCDWebServer.h */,
+				FC1385C2269D603400AFDAE5 /* GCDWebServerRequest.m */,
+				FC1385C3269D603400AFDAE5 /* GCDWebServerHTTPStatusCodes.h */,
+				FC1385C4269D603400AFDAE5 /* GCDWebServerResponse.h */,
+				FC1385C5269D603400AFDAE5 /* GCDWebServerFunctions.m */,
+				FC1385C6269D603400AFDAE5 /* GCDWebServer.m */,
+				FC1385C7269D603400AFDAE5 /* GCDWebServerConnection.m */,
+				FC1385C8269D603400AFDAE5 /* GCDWebServerRequest.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FC1385C9269D603400AFDAE5 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				FC1385CA269D603400AFDAE5 /* GCDWebServerFileResponse.h */,
+				FC1385CB269D603400AFDAE5 /* GCDWebServerStreamedResponse.h */,
+				FC1385CC269D603400AFDAE5 /* GCDWebServerErrorResponse.m */,
+				FC1385CD269D603400AFDAE5 /* GCDWebServerDataResponse.h */,
+				FC1385CE269D603400AFDAE5 /* GCDWebServerFileResponse.m */,
+				FC1385CF269D603400AFDAE5 /* GCDWebServerDataResponse.m */,
+				FC1385D0269D603400AFDAE5 /* GCDWebServerErrorResponse.h */,
+				FC1385D1269D603400AFDAE5 /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		FC1385D2269D603400AFDAE5 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1385D3269D603400AFDAE5 /* GCDWebServerDataRequest.h */,
+				FC1385D4269D603400AFDAE5 /* GCDWebServerMultiPartFormRequest.h */,
+				FC1385D5269D603400AFDAE5 /* GCDWebServerFileRequest.h */,
+				FC1385D6269D603400AFDAE5 /* GCDWebServerURLEncodedFormRequest.m */,
+				FC1385D7269D603400AFDAE5 /* GCDWebServerMultiPartFormRequest.m */,
+				FC1385D8269D603400AFDAE5 /* GCDWebServerDataRequest.m */,
+				FC1385D9269D603400AFDAE5 /* GCDWebServerFileRequest.m */,
+				FC1385DA269D603400AFDAE5 /* GCDWebServerURLEncodedFormRequest.h */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		FC3F218E269EBE4700CE3323 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				FC279FE8269FC833000BB24B /* sample01.mp4 */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
 		FCE1F16F269C0DD1007F8D3C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +213,7 @@
 				FCE1F191269C0DD2007F8D3C /* OpenCV02Tests */,
 				FCE1F19C269C0DD2007F8D3C /* OpenCV02UITests */,
 				FCE1F179269C0DD1007F8D3C /* Products */,
+				FCE1F1B9269C1366007F8D3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +230,19 @@
 		FCE1F17A269C0DD1007F8D3C /* OpenCV02 */ = {
 			isa = PBXGroup;
 			children = (
+				FC3F218E269EBE4700CE3323 /* video */,
+				FC13D660269C1BE7006D4041 /* opencv2.framework */,
+				FC1385BB269D603400AFDAE5 /* GCDWebServer */,
 				FCE1F17B269C0DD1007F8D3C /* AppDelegate.swift */,
 				FCE1F17D269C0DD1007F8D3C /* SceneDelegate.swift */,
 				FCE1F17F269C0DD1007F8D3C /* ViewController.swift */,
+				FC8A7818269E5047001FAF56 /* NextViewController.swift */,
 				FCE1F181269C0DD1007F8D3C /* Main.storyboard */,
 				FCE1F184269C0DD2007F8D3C /* Assets.xcassets */,
-				FCE1F186269C0DD2007F8D3C /* LaunchScreen.storyboard */,
 				FCE1F189269C0DD2007F8D3C /* Info.plist */,
+				FCE1F1CE269C194F007F8D3C /* OpenCV02-Bridging-Header.h */,
+				FC223C6C269D24300079FCDD /* opencv002.h */,
+				FC223C6D269D24300079FCDD /* opencv002.mm */,
 			);
 			path = OpenCV02;
 			sourceTree = "<group>";
@@ -128,6 +265,13 @@
 			path = OpenCV02UITests;
 			sourceTree = "<group>";
 		};
+		FCE1F1B9269C1366007F8D3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +282,7 @@
 				FCE1F174269C0DD1007F8D3C /* Sources */,
 				FCE1F175269C0DD1007F8D3C /* Frameworks */,
 				FCE1F176269C0DD1007F8D3C /* Resources */,
+				FCE1F1BC269C1366007F8D3C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +340,7 @@
 				TargetAttributes = {
 					FCE1F177269C0DD1007F8D3C = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					FCE1F18D269C0DD2007F8D3C = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -231,9 +377,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE1F188269C0DD2007F8D3C /* LaunchScreen.storyboard in Resources */,
 				FCE1F185269C0DD2007F8D3C /* Assets.xcassets in Resources */,
 				FCE1F183269C0DD1007F8D3C /* Main.storyboard in Resources */,
+				FC279FE9269FC855000BB24B /* sample01.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +405,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCE1F180269C0DD1007F8D3C /* ViewController.swift in Sources */,
+				FC223C6E269D24300079FCDD /* opencv002.mm in Sources */,
+				FC1385DB269D603400AFDAE5 /* GCDWebServerResponse.m in Sources */,
 				FCE1F17C269C0DD1007F8D3C /* AppDelegate.swift in Sources */,
+				FC1385E7269D603400AFDAE5 /* GCDWebServerFileRequest.m in Sources */,
+				FC1385E5269D603400AFDAE5 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				FC1385DE269D603400AFDAE5 /* GCDWebServer.m in Sources */,
+				FC8A7819269E5047001FAF56 /* NextViewController.swift in Sources */,
+				FC1385E1269D603400AFDAE5 /* GCDWebServerFileResponse.m in Sources */,
+				FC1385DC269D603400AFDAE5 /* GCDWebServerRequest.m in Sources */,
+				FC1385E4269D603400AFDAE5 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				FC1385E0269D603400AFDAE5 /* GCDWebServerErrorResponse.m in Sources */,
+				FC1385E6269D603400AFDAE5 /* GCDWebServerDataRequest.m in Sources */,
+				FC1385E3269D603400AFDAE5 /* GCDWebServerStreamedResponse.m in Sources */,
 				FCE1F17E269C0DD1007F8D3C /* SceneDelegate.swift in Sources */,
+				FC1385E2269D603400AFDAE5 /* GCDWebServerDataResponse.m in Sources */,
+				FC1385DD269D603400AFDAE5 /* GCDWebServerFunctions.m in Sources */,
+				FC1385DF269D603400AFDAE5 /* GCDWebServerConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +463,6 @@
 				FCE1F182269C0DD1007F8D3C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FCE1F186269C0DD2007F8D3C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCE1F187269C0DD2007F8D3C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -366,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +574,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,17 +589,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VGKM533HG;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenCV02",
+				);
 				INFOPLIST_FILE = OpenCV02/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = sample.OpenCV02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCV02/OpenCV02-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -455,8 +619,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VGKM533HG;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenCV02",
+				);
 				INFOPLIST_FILE = OpenCV02/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,8 +635,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sample.OpenCV02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCV02/OpenCV02-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
