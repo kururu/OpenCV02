@@ -129,7 +129,9 @@ class ViewController: UIViewController {
 
     @IBAction func access01(_ sender: Any) {
         db_access01()
-        post01(url: "http://192.168.11.22/PHPsample/post01.php")
+        //post01(url: "http://192.168.11.22/PHPsample/post01.php")
+        //post02(url: "http://192.168.11.23:8080/menkyo/api/json_exam2")
+        get01(url: "http://192.168.11.23:8080/menkyo/api/json_exam")
 
         
     }
@@ -143,8 +145,6 @@ class ViewController: UIViewController {
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
 
-
-
         let params:[String:Any] = [
             "foo": "bar",
             "baz":[
@@ -155,6 +155,66 @@ class ViewController: UIViewController {
 
         do{
             request.httpBody = try JSONSerialization.data(withJSONObject: params, options: .prettyPrinted)
+
+            let task:URLSessionDataTask = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: {(data,response,error) -> Void in
+                let resultData = String(data: data!, encoding: .utf8)!
+                print("result:\(resultData)")
+                print("response:\(String(describing: response))")
+
+            })
+            task.resume()
+        }catch{
+            print("Error:\(error)")
+            return
+        }
+        /* /POST */
+    }
+    
+    func post02(url: String){
+        /* POST */
+        let urlString = url
+
+        let request = NSMutableURLRequest(url: URL(string: urlString)!)
+
+        request.httpMethod = "POST"
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+
+        let params:[String:Any] = [
+            "id": "13"
+        ]
+
+        do{
+            request.httpBody = try JSONSerialization.data(withJSONObject: params, options: .prettyPrinted)
+
+            let task:URLSessionDataTask = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: {(data,response,error) -> Void in
+                let resultData = String(data: data!, encoding: .utf8)!
+                print("result:\(resultData)")
+                print("response:\(String(describing: response))")
+
+            })
+            task.resume()
+        }catch{
+            print("Error:\(error)")
+            return
+        }
+        /* /POST */
+    }
+    
+    func get01(url: String){
+        /* POST */
+        let urlString = url
+
+        let request = NSMutableURLRequest(url: URL(string: urlString)!)
+
+        request.httpMethod = "GET"
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+
+        let params:[String:Any] = [
+            "id": "13"
+        ]
+
+        do{
+            //request.httpBody = try JSONSerialization.data(withJSONObject: params, options: .prettyPrinted)
 
             let task:URLSessionDataTask = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: {(data,response,error) -> Void in
                 let resultData = String(data: data!, encoding: .utf8)!
