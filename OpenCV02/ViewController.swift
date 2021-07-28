@@ -129,9 +129,9 @@ class ViewController: UIViewController {
 
     @IBAction func access01(_ sender: Any) {
         db_access01()
-        //post01(url: "http://192.168.11.22/PHPsample/post01.php")
+        post01(url: "http://192.168.11.22/PHPsample/post01.php")
         //post02(url: "http://192.168.11.23:8080/menkyo/api/json_exam2")
-        get01(url: "http://192.168.11.23:8080/menkyo/api/json_exam")
+        //get01(url: "http://192.168.11.23:8080/menkyo/api/json_exam")
 
         
     }
@@ -154,15 +154,18 @@ class ViewController: UIViewController {
         ]
 
         do{
+            
             request.httpBody = try JSONSerialization.data(withJSONObject: params, options: .prettyPrinted)
 
-            let task:URLSessionDataTask = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: {(data,response,error) -> Void in
+            let task:URLSessionDataTask = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: {(data,response,error) in
                 let resultData = String(data: data!, encoding: .utf8)!
                 print("result:\(resultData)")
-                print("response:\(String(describing: response))")
+                //print("response:\(String(describing: response))")
+                print("response:\(response)")
 
             })
             task.resume()
+            
         }catch{
             print("Error:\(error)")
             return
@@ -186,7 +189,7 @@ class ViewController: UIViewController {
         do{
             request.httpBody = try JSONSerialization.data(withJSONObject: params, options: .prettyPrinted)
 
-            let task:URLSessionDataTask = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: {(data,response,error) -> Void in
+            let task:URLSessionDataTask = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: {(data,response,error) in
                 let resultData = String(data: data!, encoding: .utf8)!
                 print("result:\(resultData)")
                 print("response:\(String(describing: response))")
